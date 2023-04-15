@@ -40,117 +40,23 @@ collections:
       - { label: 'Link Title', name: 'linktitle', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-
-
-
-  - name: 'financials'
-    label: 'Financials'
-    folder: 'content/english/financials'
+  - name: 'consumer_law'
+    label: 'Consumer Law'
+    folder: 'content/english/documents/consumer_law'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string'}
+      - { label: 'Summary', name: 'summary', widget: 'string' }
       - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'Lede', name: 'lead', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      
-
-  - name: 'Main'
-    label: 'main'
-    folder: 'content/english/'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string'}
-      - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'Lede', name: 'lead', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'newsletters-fr'
-    label: 'French Newsletters'
-    folder: 'content/french/Communiques'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string'}
-      - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'Lede', name: 'lead', widget: 'string'}
+      - { label: 'Weight', name: 'weight', widget: 'string'}
+      - { label: 'Table of Contents', name: 'toc', widget: 'string'}
+      - { label: 'Link Title', name: 'linktitle', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
 
-  - name: 'rapports'
-    label: 'Benefits-French'
-    folder: 'content/french/rapports'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string'}
-      - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'Lede', name: 'lead', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'financials-fr'
-    label: 'Financials French'
-    folder: 'content/french/Finances'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string'}
-      - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'Lede', name: 'lead', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      
-
-  - name: 'main-french'
-    label: 'Main-French'
-    folder: 'content/french/'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string'}
-      - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'Lede', name: 'lead', widget: 'string'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      
