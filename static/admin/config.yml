@@ -22,6 +22,24 @@ collections:
       - { label: 'Link Title', name: 'linktitle', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
+  - name: 'posts-fr'
+    label: 'FrenchPosts'
+    folder: 'content/french/post'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Summary', name: 'summary', widget: 'string' }
+      - { label: 'Translation Key', name: 'translationKey', widget: 'string'}
+      - { label: 'Weight', name: 'weight', widget: 'string'}
+      - { label: 'Table of Contents', name: 'toc', widget: 'string'}
+      - { label: 'Link Title', name: 'linktitle', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'documents'
     label: 'Documents'
     folder: 'content/english/documents'
