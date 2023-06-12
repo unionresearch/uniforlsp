@@ -121,7 +121,7 @@ menu:
 * [A Practical Guide for Planning Your Will](/pdf/A%20practical%20guide%20for%20planning%20your%20will.pdf)
 * [Instructions to Wills Clients](/pdf/01.Instructions%20to%20Will%20Clients%202018.pdf)
 * [Instructions to Estate Trustees](/pdf/Instructions%20to%20estate%20trustees.pdf)
-* [Beware of the  "Do-It-Yourself " Will](/pdf/but%20for%20the%20plan%202012%20Bill%20Beware.pdf)
+* [Beware of the  'Do-It-Yourself' Will](/pdf/but%20for%20the%20plan%202012%20Bill%20Beware.pdf)
 
 #### But for the Plan
 
