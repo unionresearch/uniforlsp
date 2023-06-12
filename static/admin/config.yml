@@ -76,7 +76,7 @@ collections:
       - { label: 'Link Title', name: 'linktitle', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'consumer_law'
+  - name: 'consumer_law_art'
     label: 'Consumer Law-art'
     folder: 'content/english/documents/consumer_law/ART'
     create: true
